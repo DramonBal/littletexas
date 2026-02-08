@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(219, 192, 154);
+ /* background-color: rgb(219, 192, 154);*/
+     
+  
 }
 video-container {
   display: flex;
@@ -22,6 +24,9 @@ video {
   object-fit: cover; /* Ensures the video covers the entire area while maintaining aspect ratio */
   z-index: -1; /* Places the video behind other elements */
 }
+
+
+
 
 h1 {
   text-transform: uppercase;
@@ -51,6 +56,7 @@ h3 {
   border: 15px solid rgb(112, 16, 48);
   width: 100%;
 }
+
 
 
 
