@@ -13,6 +13,16 @@ video {
   margin: auto;   /* Centers horizontally */
 }
 
+.video-background video {
+  position: fixed; /* Positions the video relative to the viewport */
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire area while maintaining aspect ratio */
+  z-index: -1; /* Places the video behind other elements */
+}
+
 h1 {
   text-transform: uppercase;
   font-size: 3rem;
@@ -41,5 +51,6 @@ h3 {
   border: 15px solid rgb(112, 16, 48);
   width: 100%;
 }
+
 
 
